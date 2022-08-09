@@ -22,3 +22,5 @@ build/
 /demo-frontend/npm-debug.log*
 /demo-frontend/yarn-debug.log*
 /demo-frontend/yarn-error.log*
+
+.idea/

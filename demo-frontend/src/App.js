@@ -8,7 +8,7 @@ import "./App.css";
 import { useState, useCallback, useEffect } from "react";
 import { ChatFeed } from "react-bell-chat";
 
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 import { v4 as uuidv4 } from "uuid";
 
 import { particleParam, particleParam2 } from "./particleparams";
@@ -130,7 +130,7 @@ function App() {
                   createdOn: new Date(),
                   isSend: true,
                 };
-                
+
                 setMessages([...messages, newMessage]);
               })
               .finally(() => {
